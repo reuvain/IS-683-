@@ -1,6 +1,5 @@
-
-dy>
-
+<ntml>
+	<body>
 <?php
 interface headers {
 
@@ -34,5 +33,5 @@ $a->create_Header(4,$a->writeName());
 $a->create_header(1,$test);
 ?>
 
-</body>
+	</body>
 </html>
