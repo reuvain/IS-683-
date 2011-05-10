@@ -1,4 +1,4 @@
-<ntml>
+<html>
 	<body>
 <?php
 interface headers {
