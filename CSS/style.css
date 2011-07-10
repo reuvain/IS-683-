@@ -1,0 +1,123 @@
+#container{
+    margin-left:auto;
+    margin-right: auto;
+    width: 960px;
+    height: 750px;
+}
+#container .column 
+{
+    position:relative;
+    float:left;
+}
+#container a{
+    color: teal;
+}
+#container a:hover{
+    color:white;
+}
+#banner {
+    background-color:Fuchsia;
+    text-align:center;
+    line-height: 75px;
+    color:yellow;
+    height: 75px;
+}
+#primaryLinks  ol{
+    background-color: yellow;
+    height: 25px;
+    line-height:25px;
+    margin: 0px;
+    text-align:center;
+}
+#primaryLinks  ul{  /*secondary link*/
+    background-color:lightblue;
+    height: 25px;
+    line-height:25px;
+    margin: 0px;
+    text-align:center;
+}
+#primaryLinks  li{
+    display: inline;
+}
+#left{
+    width:190px;
+    background-color:lightgreen;
+    float: left;
+    height: 500px;
+}
+#right{
+    width: 190px;
+    background-color:Lime;
+    float: right;
+    height: 500px;
+}
+#center
+{
+   
+    text-align:center;
+    color:maroon;
+    background-color:aqua;
+    width: 580px;
+    height: 500px;
+    float: right;
+    left:150px;
+}
+table
+{
+    width:110px;
+    margin-left:45%;
+    border:2px solid black;
+    padding: 0px;
+}
+.top_row{
+    text-decoration: underline;
+    color:Green;
+    background-color:#D2E7F4;
+}
+.red_blue{
+    color:red;
+    background-color:blue;
+}
+.blue_red{
+    color:blue;
+    background-color:red;
+}
+
+h1
+{
+    color:blue;
+}
+h2
+{
+    color:Navy;
+}
+h3
+{
+    color:green;
+}
+h4
+{
+    color:Olive;
+}
+h5
+{
+    color:Fuchsia;
+}
+h6
+{
+	color:Black;
+}
+#block
+{
+    font-style:italic;
+    color:LightCoral;
+}
+#footer{
+    background-color:#7A2875;
+    width:100%;
+    clear:both;
+    height: 135px;
+    margin-top: 5px;
+    text-align:center ; 
+    color:#CCC;
+}
