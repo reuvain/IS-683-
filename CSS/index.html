@@ -4,14 +4,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title> My music website</title>
-	<link href="style.css" rel="stylesheet"></link>
+	<link href="holygrail.css" rel="stylesheet"/>
+	<link href="design.css" rel="Stylesheet"/>
 	<style type="text/css"></style>
 	<link rel="stylesheet"
           type="text/css"
           media="print" href="print.css" />
+    <script src="jQuery.js.js" type="text/javascript"></script>
+    <script src="jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#Table1").tablesorter({ sortList: [[0, 0], [1, 0]] })
+        }
+); 
+    
+        
+     </script>
 </head>
 <body>
-	<div id="container">
+	<div id="outer_container">
 	<div id="banner" >
 		<h1 > Jewish Music Information</h1>
 	</div>
@@ -31,8 +42,8 @@
 		</ul>
 		</div>
 		
-
-		<div id="left">
+    <div id="container">
+		<div id="left" class="column">
 		<ol> <h4>SINGERS:</h4>
 			<li>Mordechai Ben David</li>
 			<li>Avraham Fried</li>
@@ -49,7 +60,7 @@
 		</ol>	
 		</div>
 		
-		<div id="right">
+		<div id="right" class="column">
 			<ol> <h4>ARTISTS:</h4>
 			<li>Yossi Green</li>
 			<li>Suki and Ding</li>
@@ -57,30 +68,32 @@
 			<li>Mona Rosenblum</li>
 			</ol>
 		</div>
-		<div id="center">
+		<div id="center" class="column">
 			<h1> This is to demonstrate</h1>
 			<h2> the difference between</h2>
 			<h3> the different types of</h3>
 			<h4> header tags that are </h4>
 			<h5> supported by all </h5>
 			<h6> browsers</h6>
-	           
-			<table>
-			<tr class="top_row"><td>Colors</td><td>Shapes</tr>
-			<tr class="blue_red"> <td>Red</td><td>Square</td></tr>
-			<tr class="red_blue">  <td>Orange</td><td>Circle</td></tr>
-			<tr class="blue_red"> <td>Yellow</td><td>Triangle</td></tr>
-			<tr class="red_blue">  <td>Green</td><td>Octagon</td></tr>
-			<tr class="blue_red"> <td>Blue</td><td>Rectangle</td></tr>
-			<tr class="red_blue">  <td>Purple</td><td>diamond</td></tr>
+	         
+	   
+      
+			<table id="Table1" class="tablesorter">
+			<thead><tr class="top_row"><th>Colors</th><th>Shapes</th><th>Number</th><th>Dates</th><th>Email</th></tr></thead>
+			<tbody><tr class="blue_red"> <td>Red</td><td>Square</td><td>12</td><td>Apr 15, 2000 9:00 AM</td><td>www.google.com</td></tr>
+			<tr class="red_blue">  <td>Orange</td><td>Circle</td><th>27</th><td>Sep 10, 1999 9:00 AM</td><td>www.yahoo.com</td></tr>
+			<tr class="blue_red"> <td>Yellow</td><td>Triangle</td><td>19</td><td>Feb 23, 2005 9:00 AM</td><td>www.bing.com</td></tr>
+			<tr class="red_blue">  <td>Green</td><td>Octagon</td><td>7</td><td>Jul 6, 2010 9:00 AM</td><td>www.njit.edu</td></tr>
+			<tr class="blue_red"> <td>Blue</td><td>Rectangle</td><td>23</td><td>Jun 9, 2008 9:00 AM</td><td>www.mywebclass.org</td></tr>
+			<tr class="red_blue">  <td>Purple</td><td>diamond</td><td>3</td><td>Jan 1, 2002 9:00 AM</td><td>www.wikipedia.org</td></tr></tbody>
 			</table>
 			<p></p>
-			<blockquote id="block">Hark, who goes there?</blockquote>   
+			<blockquote id="block">"Hark, who goes there?"</blockquote>   
 		</div>
-		
+	</div>
         <div id="footer">
 			
-            Made by: Reuben Moddel </br>
+            Made by: Reuben Moddel <br/>
 			Homework assignment for IS-683 Web Developement
 			<a href="mailto:rmoddel@gmail.com">Email me</a>
 			

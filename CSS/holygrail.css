@@ -1,0 +1,34 @@
+
+#body {
+  min-width: 550px;      
+}
+
+#container {
+    overflow: hidden;
+    padding-left: 200px;   
+    padding-right: 150px;  
+  
+}
+
+#container .column {
+    padding-bottom: 20010px; 
+    margin-bottom: -20000px; 
+} 
+
+#left {
+    float:left;
+    width: 180px;      
+    margin-left: -180px; 
+}
+ 
+#center {
+    float:left;
+    width: 100%;
+} 
+
+#right {
+    float:right;
+    width: 150px;  
+    margin-right: -150px; 
+ 
+}
